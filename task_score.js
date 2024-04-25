@@ -8,7 +8,8 @@ const jsScore = 95;
 const averageScore = (introductionScore + gitScore + jsScore) / 3;
 
 console.log(
-  `Student ${firstName.charAt(
-    0
+  `Student ${firstName.slice(
+    0,
+    1
   )}. ${lastName} has average score: ${averageScore}! Yayyy 😊`
 );
